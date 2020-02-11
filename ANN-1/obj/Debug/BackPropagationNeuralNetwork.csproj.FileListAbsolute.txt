@@ -1,0 +1,130 @@
+D:\Google硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.exe.config
+D:\Google硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.exe
+D:\Google硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.pdb
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN_1.Form1.resources
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN_1.Properties.Resources.resources
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.exe
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.pdb
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+C:\Users\皇宇\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google 雲端硬碟\Project\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+C:\Users\User\Desktop\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google 雲端硬碟\小宇小遊戲\BackPropagationNeuralNetwork - 複製\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google硬碟\小宇小遊戲\BackPropagationNeuralNetwork (1)\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google 雲端硬碟\小宇酷炫程式集\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csprojResolveAssemblyReference.cache
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.CoreCompileInputs.cache
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+D:\Google 雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.Cache
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.CoreCompileInputs.cache
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb

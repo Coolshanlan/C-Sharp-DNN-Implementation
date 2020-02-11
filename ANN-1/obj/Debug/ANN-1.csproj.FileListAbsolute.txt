@@ -1,0 +1,18 @@
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.exe.config
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.exe
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.pdb
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.csprojResolveAssemblyReference.cache
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN_1.Form1.resources
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN_1.Properties.Resources.resources
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.csproj.GenerateResource.Cache
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.exe
+D:\Google 雲端硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.pdb
+D:\Google硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.exe.config
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.exe
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.pdb
+D:\Google硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.exe
+D:\Google硬碟\Project\ANN-1\ANN-1\bin\Debug\ANN-1.pdb
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.csprojResolveAssemblyReference.cache
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN_1.Form1.resources
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN_1.Properties.Resources.resources
+D:\Google硬碟\Project\ANN-1\ANN-1\obj\Debug\ANN-1.csproj.GenerateResource.Cache

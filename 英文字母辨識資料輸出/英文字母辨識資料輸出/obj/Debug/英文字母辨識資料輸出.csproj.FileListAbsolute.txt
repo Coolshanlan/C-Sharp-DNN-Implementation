@@ -1,0 +1,9 @@
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\bin\Debug\英文字母辨識資料輸出.exe.config
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\bin\Debug\英文字母辨識資料輸出.exe
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\bin\Debug\英文字母辨識資料輸出.pdb
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\obj\Debug\英文字母辨識資料輸出.csprojResolveAssemblyReference.cache
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\obj\Debug\英文字母辨識資料輸出.Form1.resources
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\obj\Debug\英文字母辨識資料輸出.Properties.Resources.resources
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\obj\Debug\英文字母辨識資料輸出.csproj.GenerateResource.Cache
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\obj\Debug\英文字母辨識資料輸出.exe
+C:\Users\皇宇\Desktop\英文字母辨識資料輸出\英文字母辨識資料輸出\obj\Debug\英文字母辨識資料輸出.pdb

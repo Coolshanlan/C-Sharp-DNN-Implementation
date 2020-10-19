@@ -128,3 +128,13 @@ G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-
 G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.CoreCompileInputs.cache
 G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
 G:\我的雲端硬碟\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe.config
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.exe
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\bin\Debug\BackPropagationNeuralNetwork.pdb
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.English.resources
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Form1.resources
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.Properties.Resources.resources
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.GenerateResource.cache
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.csproj.CoreCompileInputs.cache
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.exe
+C:\User_D\Program\Project_C#\小宇酷炫程式集 C#\BackPropagationNeuralNetwork\ANN-1\obj\Debug\BackPropagationNeuralNetwork.pdb

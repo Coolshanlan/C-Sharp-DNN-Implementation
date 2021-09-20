@@ -25,14 +25,14 @@ namespace BackPropagationNeuralNetwork
         int[,] FMask = new int[3, 3];
         private void English_Load(object sender, EventArgs e)
         {
-             bb = new Button[121];
-            for(int i = 0; i < 11; i++)
+            bb = new Button[121];
+            for (int i = 0; i < 11; i++)
             {
-                for(int j = 0; j < 11; j++)
+                for (int j = 0; j < 11; j++)
                 {
                     bb[i * 11 + j] = new Button();
-                    bb[i * 11 + j].Size = new Size(40,40);
-                    bb[i * 11 + j].Location = new Point(20+j*40,20+i*40);
+                    bb[i * 11 + j].Size = new Size(40, 40);
+                    bb[i * 11 + j].Location = new Point(20 + j * 40, 20 + i * 40);
                     bb[i * 11 + j].FlatStyle = FlatStyle.Flat;
                     bb[i * 11 + j].MouseDown += new System.Windows.Forms.MouseEventHandler(this.bb_MouseDown);
                     bb[i * 11 + j].MouseUp += new System.Windows.Forms.MouseEventHandler(this.bb_MouseUp);
@@ -120,12 +120,12 @@ namespace BackPropagationNeuralNetwork
             int[,] EMask_Value_p = new int[4, 4];
             int[,] FMask_Value_p = new int[4, 4];
             ans = "";
-            for(int i = 0; i < 11; i++)
+            for (int i = 0; i < 11; i++)
             {
-                for(int j = 0; j < 11; j++)
+                for (int j = 0; j < 11; j++)
                 {
-                    ans_value[i,j] = bb[i * 11 + j].BackColor == Color.Black ? 1  : 0 ;
-                    ans += ans_value[i, j]+",";
+                    ans_value[i, j] = bb[i * 11 + j].BackColor == Color.Black ? 1 : 0;
+                    ans += ans_value[i, j] + ",";
                 }
             }
             ans = ans.Substring(0, ans.Length - 1);
@@ -136,7 +136,7 @@ namespace BackPropagationNeuralNetwork
             {
                 for (int j = 0; j < 11; j++)
                 {
-                    for(int ii = -1; ii < 2; ii++)
+                    for (int ii = -1; ii < 2; ii++)
                     {
                         for (int jj = -1; jj < 2; jj++)
                         {
@@ -153,90 +153,133 @@ namespace BackPropagationNeuralNetwork
                 }
                 //sb.AppendLine();
             }
-            //sb.AppendLine();
-            //sb.AppendLine();
-            for(int i = 0; i < 12; i += 3)
-            {
-                for (int j = 0; j < 12; j += 3)
-                {
-                    int Max = -3;
-                    for (int ii = i; ii < i + 3; ii++)
-                    {
-                        for(int jj = j; jj < j + 3; jj++)
-                        {
-                            if (ii >= 11 || jj >= 11) continue;
-                            if (AMask_Value_p[ii / 3, jj / 3] < AMask_Value[ii, jj])
-                            {
-                                AMask_Value_p[ii / 3, jj / 3] = AMask_Value[ii, jj];
-                            }
-                            if (BMask_Value_p[ii / 3, jj / 3] < BMask_Value[ii, jj])
-                            {
-                                BMask_Value_p[ii / 3, jj / 3] = BMask_Value[ii , jj ];
-                            }
-                            if (CMask_Value_p[ii / 3, jj / 3] < CMask_Value[ii, jj])
-                            {
-                                CMask_Value_p[ii / 3, jj / 3] = CMask_Value[ii , jj ];
-                            }
-                            if (DMask_Value_p[ii / 3, jj / 3] < DMask_Value[ii, jj])
-                            {
-                                DMask_Value_p[ii / 3, jj / 3] = DMask_Value[ii , jj ];
-                            }
-                            if (EMask_Value_p[ii / 3, jj / 3] < EMask_Value[ii, jj])
-                            {
-                                EMask_Value_p[ii / 3, jj / 3] = EMask_Value[ii , jj ];
-                            }
-                            if (FMask_Value_p[ii / 3, jj / 3] < FMask_Value[ii, jj])
-                            {
-                                FMask_Value_p[ii / 3, jj / 3] = FMask_Value[ii, jj];
-                            }
-                        }
-                    }
-                }
-            }
             sb = new StringBuilder();
-            for(int i = 0; i < 4; i++)
+            for (int i = 0; i < 11; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 11; j++)
                 {
-                    sb.Append(AMask_Value_p[i,j]+",");
+                    sb.Append(AMask_Value[i, j] + ",");
                 }
             }
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 11; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 11; j++)
                 {
-                    sb.Append(BMask_Value_p[i, j] + ",");
+                    sb.Append(BMask_Value[i, j] + ",");
                 }
             }
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 11; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 11; j++)
                 {
-                    sb.Append(CMask_Value_p[i, j] + ",");
+                    sb.Append(CMask_Value[i, j] + ",");
                 }
             }
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 11; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 11; j++)
                 {
-                    sb.Append(DMask_Value_p[i, j] + ",");
+                    sb.Append(DMask_Value[i, j] + ",");
                 }
             }
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 11; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 11; j++)
                 {
-                    sb.Append(EMask_Value_p[i, j] + ",");
+                    sb.Append(EMask_Value[i, j] + ",");
                 }
             }
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 11; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 11; j++)
                 {
-                    sb.Append(FMask_Value_p[i, j] + ",");
+                    sb.Append(FMask_Value[i, j] + ",");
                 }
             }
-            sb.Remove(sb.Length-1,1);
+            //sb.AppendLine();
+            //sb.AppendLine();
+            //for(int i = 0; i < 12; i += 3)
+            //{
+            //    for (int j = 0; j < 12; j += 3)
+            //    {
+            //        int Max = -3;
+            //        for (int ii = i; ii < i + 3; ii++)
+            //        {
+            //            for(int jj = j; jj < j + 3; jj++)
+            //            {
+            //                if (ii >= 11 || jj >= 11) continue;
+            //                if (AMask_Value_p[ii / 3, jj / 3] < AMask_Value[ii, jj])
+            //                {
+            //                    AMask_Value_p[ii / 3, jj / 3] = AMask_Value[ii, jj];
+            //                }
+            //                if (BMask_Value_p[ii / 3, jj / 3] < BMask_Value[ii, jj])
+            //                {
+            //                    BMask_Value_p[ii / 3, jj / 3] = BMask_Value[ii , jj ];
+            //                }
+            //                if (CMask_Value_p[ii / 3, jj / 3] < CMask_Value[ii, jj])
+            //                {
+            //                    CMask_Value_p[ii / 3, jj / 3] = CMask_Value[ii , jj ];
+            //                }
+            //                if (DMask_Value_p[ii / 3, jj / 3] < DMask_Value[ii, jj])
+            //                {
+            //                    DMask_Value_p[ii / 3, jj / 3] = DMask_Value[ii , jj ];
+            //                }
+            //                if (EMask_Value_p[ii / 3, jj / 3] < EMask_Value[ii, jj])
+            //                {
+            //                    EMask_Value_p[ii / 3, jj / 3] = EMask_Value[ii , jj ];
+            //                }
+            //                if (FMask_Value_p[ii / 3, jj / 3] < FMask_Value[ii, jj])
+            //                {
+            //                    FMask_Value_p[ii / 3, jj / 3] = FMask_Value[ii, jj];
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
+            //sb = new StringBuilder();
+            //for(int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        sb.Append(AMask_Value_p[i,j]+",");
+            //    }
+            //}
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        sb.Append(BMask_Value_p[i, j] + ",");
+            //    }
+            //}
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        sb.Append(CMask_Value_p[i, j] + ",");
+            //    }
+            //}
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        sb.Append(DMask_Value_p[i, j] + ",");
+            //    }
+            //}
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        sb.Append(EMask_Value_p[i, j] + ",");
+            //    }
+            //}
+            //for (int i = 0; i < 4; i++)
+            //{
+            //    for (int j = 0; j < 4; j++)
+            //    {
+            //        sb.Append(FMask_Value_p[i, j] + ",");
+            //    }
+            //}
+            sb.Remove(sb.Length - 1, 1);
             textBox1.Text = sb.ToString();
             ans = sb.ToString();
         }
@@ -249,7 +292,7 @@ namespace BackPropagationNeuralNetwork
         {
             down = false;
         }
-         private void bb_MouseMove(object sender, MouseEventArgs e)
+        private void bb_MouseMove(object sender, MouseEventArgs e)
         {
             Button b = (Button)sender;
             if (down) b.BackColor = Color.Black;

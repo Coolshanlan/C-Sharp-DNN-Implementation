@@ -19,9 +19,14 @@ namespace BackPropagationNeuralNetwork
         public Neurons[][] neur;
         public int Run_Times = -1;
         public double mse = 0.0;
+        public int val_data_count;
+        public double val_mse = 0.0;
         public bool stop = false;
+        public double val_mse_now= 0.0;
         public double mse_now = 0.0;
-
+        public double val_acc_now = 0.0;
+        public double acc_now = 0.0;
+        public int[] outputanswers;
         public bool Insert_LearnData(List<string> data)
         {
             try
@@ -144,7 +149,8 @@ namespace BackPropagationNeuralNetwork
             //NOut = dt.ElementAt(0).Value.ToString().Split(',').Count();
             NIn = dt[0].data.ToString().Split(',').Count();
             NOut = dt[0].ans.ToString().Split(',').Count();
-            NHid = (NIn + NOut) / 2 + hidcount;
+            //NHid = (NIn + NOut) / 2 + hidcount;
+            NHid =  hidcount;
 
             //宣告個神經元
             neur = new Neurons[Hid_Long + 2][];
@@ -169,22 +175,33 @@ namespace BackPropagationNeuralNetwork
             }
         }
 
-        public  List<double> Learn(List<In_D> dt,int Learn_Times,double eta , double alpha,int Hid_Long,double num,int hidcount,bool clear,double max_mse )
+        public List<List<double>> Learn(List<In_D> dt, List<In_D> val_dt, int Learn_Times,double eta , double alpha,int Hid_Long,double num,int hidcount,bool clear,double max_mse )
         {
-            List<double> learndt_mse = new List<double>();
+            List<List<double>> learn_History= new List<List<double>>();
+            List<double> OutputAns;
             data_count = dt.Count;
+            val_data_count = val_dt.Count;
             neurons_count = Hid_Long + 2;
             //NIn = dt.ElementAt(0).Key.ToString().Split(',').Count();
             //NOut = dt.ElementAt(0).Value.ToString().Split(',').Count();
             NIn = dt[0].data.ToString().Split(',').Count();
             NOut = dt[0].ans.ToString().Split(',').Count();
-            NHid = (NIn + NOut) / 2 + hidcount;
+            //NHid = (NIn + NOut) / 2 + hidcount;
+            NHid =hidcount;
             if (clear) Learn_Reset(dt,Hid_Long,hidcount);
             //學習開始
             for (Run_Times = 0; Run_Times < Learn_Times; Run_Times++)//學習次數
             {
+                List<int> outtmp = new List<int>();
+                List<double> his = new List<double>();
                 mse = 0.0;
-                if (stop) return learndt_mse;
+                val_mse = 0.0;
+
+                if (stop) return learn_History;
+                int num_acc = 0;
+                double num_acc_p = 0.0;
+                int val_num_acc = 0;
+                double val_num_acc_p = 0.0;
                 for (int d_t = 0; d_t < data_count; d_t++)//學習樣本數
                 {
 
@@ -195,38 +212,84 @@ namespace BackPropagationNeuralNetwork
                     string out_s = dt[d_t].ans.ToString();
                     string[] in_a = in_s.Split(',');
                     string[] out_a = out_s.Split(',');
+                    
 
-                    //資料輸入
-                    for (int in_t = 0; in_t < NIn; in_t++)
-                        neur[0][in_t].Output_value = Convert.ToDouble(in_a[in_t]) / num;
-                    Data_Ans = Array.ConvertAll(out_a,Convert.ToDouble);
-
-                    //計算輸出值
-                    for(int i = 1; i < neurons_count; i++)
+                    Data_Ans = Array.ConvertAll(out_a, Convert.ToDouble);
+                    OutputAns = Recall(in_s, num);
+                    //修正加權值，誤差值累計
+                    double Maxvalue = -10000;
+                    int Maxindex = -1;
+                    for (int o = 0; o < NOut; o++)
                     {
-                        int len = neur[i - 1].Length;
-                        double[] input_data = new double[len];
-                        for(int j = 0; j < len; j++)
+                        if (double.IsNaN(OutputAns[o]))
                         {
-                            input_data[j] = neur[i - 1][j].Output_value;
+                            return learn_History;
                         }
-                        for(int j =0;j< neur[i].Length; j++)
+                        if (Maxvalue < OutputAns[o])
                         {
-                            neur[i][j].Input_Update(input_data);
-                            if (i == neurons_count-1)
-                                neur[i][j].Output_Update_Out();
-                            else
-                                neur[i][j].Output_Update();
+                            Maxvalue = OutputAns[o];
+                            Maxindex = o;
                         }
                     }
-                    //修正加權值，誤差值累計
+                    outtmp.Add(Maxindex);
+                    if (out_a[Maxindex] == "1")
+                    {
+                        num_acc += 1;
+                    }
                     mse += Revise(Data_Ans,eta,alpha);
                 }
-                learndt_mse.Add(Math.Round((double)(mse / data_count), 15));
-                mse_now = Math.Round((double)(mse / data_count), 6);
-                if (mse_now < max_mse) return learndt_mse;
+
+                for(int valnum = 0;valnum< val_data_count; valnum++)
+                {
+                    double[] Data_Ans;
+                    double[] Data_delta = new double[NOut];
+                    //資料取出
+                    string in_s = val_dt[valnum].data.ToString();
+                    string out_s = val_dt[valnum].ans.ToString();
+                    string[] in_a = in_s.Split(',');
+                    string[] out_a = out_s.Split(',');
+
+
+                    Data_Ans = Array.ConvertAll(out_a, Convert.ToDouble);
+                    OutputAns = Recall(in_s, num);
+                    double Maxvalue = -100000;
+                    int Maxindex = -1;
+                    for (int o = 0; o < NOut; o++)
+                    {
+                        if (double.IsNaN(OutputAns[o]))
+                        {
+                            return learn_History;
+                        }
+                        if (Maxvalue < OutputAns[o])
+                        {
+                            Maxvalue = OutputAns[o];
+                            Maxindex = o;
+                        }
+                        val_mse += (Data_Ans[o] - neur[neurons_count - 1][o].Output_value) * (Data_Ans[o] - neur[neurons_count - 1][o].Output_value) / 2;
+                    }
+                    outtmp.Add(Maxindex);
+                    if (out_a[Maxindex] == "1")
+                    {
+                        val_num_acc += 1;
+                    }
+                }
+                outputanswers = outtmp.ToList().ToArray();
+                //his.Add(Math.Round((double)(mse / data_count), 5));
+                num_acc_p = Math.Round((double)(num_acc / (double)data_count),4);
+                val_num_acc_p = Math.Round((double)(val_num_acc / (double)val_data_count), 4);
+                his.Add(Math.Round((double)(mse / (double)data_count), 5));
+                his.Add(num_acc_p);
+                his.Add(Math.Round((double)(val_mse / (double)val_data_count), 5));
+                his.Add(val_num_acc_p);
+                learn_History.Add(his);
+                //learndt_mse.Add(Math.Round((double)(mse / data_count), 15));
+                mse_now = his[0];
+                val_mse_now = his[2];
+                acc_now = his[1];
+                val_acc_now = his[3];
+                if (mse_now < max_mse) return learn_History;
             }
-            return learndt_mse;
+            return learn_History;
         }
 
         public double Revise(double[] Data_Ans,double eta , double alpha)//修正加權值
@@ -244,22 +307,28 @@ namespace BackPropagationNeuralNetwork
 
             //softmax---------------------
             //輸出加總
-            for (int i = 0; i < NOut; i++)
+            if(NOut > 1)
             {
-                //sum_softmax += neur[neurons_count - 1][i].ActivationFunction(neur[neurons_count - 1][i].Output_value);
-                sum_softmax += neur[neurons_count - 1][i].Output_value;
-                //neur[neurons_count - 1][i].Output_value = neur[neurons_count - 1][i].ActivationFunction(neur[neurons_count - 1][i].Output_value);
+                for (int i = 0; i < NOut; i++)
+                {
+                    //sum_softmax += neur[neurons_count - 1][i].ActivationFunction(neur[neurons_count - 1][i].Output_value);
+                    sum_softmax += neur[neurons_count - 1][i].Output_value;
+                    //neur[neurons_count - 1][i].Output_value = neur[neurons_count - 1][i].ActivationFunction(neur[neurons_count - 1][i].Output_value);
+                }
             }
-
             
             //計算誤差值
             for (int i = 0; i < NOut; i++)
             {
-                double out_value = neur[neurons_count - 1][i].Output_value / sum_softmax;
-                neur[neurons_count - 1][i].Output_value = out_value;
+                
                 double out_ans = Data_Ans[i];
-                neur[neurons_count - 1][i].delta_Update((out_ans - out_value));
-                mse += (out_ans - out_value) * (out_ans - out_value);
+                neur[neurons_count - 1][i].delta_Update((out_ans - neur[neurons_count - 1][i].Output_value));
+                mse += (out_ans - neur[neurons_count - 1][i].Output_value) * (out_ans - neur[neurons_count - 1][i].Output_value)/2;
+                if (NOut > 1)
+                {
+                    double out_value = neur[neurons_count - 1][i].Output_value / sum_softmax;
+                    neur[neurons_count - 1][i].Output_value = out_value;
+                }
             }
             //softmax---------------------
 
@@ -326,14 +395,17 @@ namespace BackPropagationNeuralNetwork
 
             //softmax
             double sum_softmax = 0.0;
-            for (int i = 0; i < NOut; i++)
+            if(NOut> 1 && false)
             {
-                sum_softmax += neur[neurons_count - 1][i].Output_value;
+                for (int i = 0; i < NOut; i++)
+                {
+                    sum_softmax += neur[neurons_count - 1][i].Output_value;
 
-            }
-            for (int i = 0; i < NOut; i++)
-            {
-                neur[neurons_count - 1][i].Output_value = neur[neurons_count - 1][i].Output_value / sum_softmax;
+                }
+                for (int i = 0; i < NOut; i++)
+                {
+                    neur[neurons_count - 1][i].Output_value = neur[neurons_count - 1][i].Output_value / sum_softmax;
+                }
             }
             //softmax
 
@@ -424,7 +496,7 @@ namespace BackPropagationNeuralNetwork
         }
         public void delta_Update(double value)
         {
-            delta = Output_value * (1.0 - Output_value) * value;
+            delta = Output_value * (1.1 - Output_value) * value;
         }
         public void Diff_Weight_Update(double eta , double alpha)
         {
@@ -439,10 +511,6 @@ namespace BackPropagationNeuralNetwork
             for(int i = 0; i < value_count; i++)
             {
                 W_value[i] += dW_value[i];
-                if (W_value[i] > 100)
-                {
-
-                }
             }
             Q_value += dQ_value;
         }
